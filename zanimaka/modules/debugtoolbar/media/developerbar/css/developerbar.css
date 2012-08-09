@@ -1,0 +1,71 @@
+#developerbarMain {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	z-index: 1000;
+	background-color: #F6F6F6;
+	opacity: 0.95;
+	filter: alpha(opacity:95);
+}
+/* Reset */
+div.tabbed,
+div.tabbed div,
+div.tabbed span,
+div.tabbed pre,
+div.tabbed h1,
+div.tabbed a,
+div.tabbed ul, 
+div.tabbed li,
+div.tabbed table,
+div.tabbed thead tr,
+div.tabbed tbody tr,
+div.tabbed thead tr td,
+div.tabbed tbody tr td,
+div.tabbed thead tr th,
+div.tabbed tbody tr th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: middle;
+	background: transparent;
+	line-height: 1;
+	text-transform: none;
+	font-size:100%;
+}
+#developerbarKohanaFull { display: none; padding: 4px 0 4px 20px; cursor: pointer; }
+#developerbarKohana { cursor: pointer; }
+.fullSize { width: 100%; }
+div.tabbed table {
+	width: 100%;
+	font-family: monospace;
+	font-size: 9pt;
+	border: 1px solid #ddd;
+}
+div.tabbed table thead tr th,
+div.tabbed table tbody tr th,
+div.tabbed table tbody tr td,
+div.tabbed table tfoot tr th {
+	text-align: left;
+	color: #333;
+	font-style: normal;
+	padding: 2px;
+	font-family: monospace;
+	font-size: 9pt;
+}
+div.tabbed table tbody tr.odd td { background-color: #ddd; }
+div.tabbed table tbody tr.normal td { background-color: #eee; }
+div.tabbed h1 {
+	font-size: 14pt;
+	padding: 4px 0 6px 0;
+}
+/** Tabs CSS BEGIN **/
+div.tabbed { padding:10px; display:none; }
+ul.tabs { margin:0 10px; padding:0; text-align:left; }
+ul.tabs li { list-style:none; display:inline; margin:0; padding:0; }
+ul.tabs li a { border:1px solid #E0E0E0; padding:3px 6px; background:#F0F0F0; font-size:13px; text-decoration:none; color: #0063dc; font-family: Arial,sans-serif; cursor: pointer}
+ul.tabs li a:hover { background-color:#F6F6F6; }
+ul.tabs li a.current { background:#fff; color:#222; border-bottom:1px solid #fff; }
+.tabbed div { border:1px solid #E0E0E0; padding:5px 15px 15px; margin-top:3px; display:none; width: 100%; }
+div.tabbed.currentTab { display:block; }
+/** Tabs CSS END **/
